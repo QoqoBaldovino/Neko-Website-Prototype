@@ -1,0 +1,91 @@
+@media screen and (max-width:768px)
+{
+  
+  /*Products*/
+  .products{
+    display: block;
+    height: auto;
+  }
+
+  .product{
+    margin: 0;
+    margin: 0 auto;
+  }
+
+  /* Ventajas */
+
+  .advantage{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .advantage_item{
+    margin:0 auto ;
+  }
+
+  /*Menciones*/
+
+  .mentions{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .mentions_photos{
+    display: block;
+    width: 100%;
+  }
+
+  .mentions_item{
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  /*Product*/
+  .grid-container{
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(6,1fr);
+    
+  }
+
+  .grid-description{
+    text-align: center;
+  }
+
+  .grid-image:nth-of-type(1){
+    grid-column: 1 / span 2;
+  }
+
+  .grid-description:nth-of-type(1)
+  {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+  }
+
+  .grid-image:nth-of-type(2){
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+
+  .grid-description:nth-of-type(2)
+  {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+  }
+
+  .grid-image:nth-of-type(3){
+    grid-row: 5;
+    grid-column: 1 / span 2;
+  }
+
+  .grid-description:nth-of-type(3)
+  {
+    grid-row: 6;
+    grid-column: 1 / span 2;
+  }
+
+
+
+}
+
+
