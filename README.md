@@ -8,5 +8,12 @@ Detalles del producto.
 ### FAQs: 
 Pregunta frecuentes y un formulario para contacto.
 
-## Sitio: 
+## Sitio Web: 
 https://qoqobaldovino.github.io/Neko-Website-Prototype/
+
+## Construido con 🛠
+* HTML5
+* CSS
+* Responsive Design
+* Javascript
+
