@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neko | Cajas Virtuales de gatitos</title>
+    
+    <link rel="icon" type="img/png" href="assets/icons/ico.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/animation.css">
+  </head>
+  <body>
+    <header class="fadeInDown">
+      <figure class="logo">
+        <a href="index.html"><img src="assets/icons/neko-logo.png" alt="Neko-logo"></a>
+      </figure>
+      <nav>
+        <ul class="nav_list ">
+          <li><a class="link" href="faqs.html">FAQs</a></li>
+          <li><a class="link" href="product.html">Producto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Formulario Venta -->
+    <section class="venta_container">
+      <div class="venta-description">
+        <figure class="venta-img">
+          <img src="assets/images/box2.png" alt="Gato">
+        </figure>
+        <div class="venta-info">
+          <h3>Pack #1</h3>
+          <p>100 stickers de gatitos creados por nosotr@s.</p>
+        </div>
+        <div class="venta-price">
+          <p>$5.00</p>
+        </div>
+      </div>
+      <div class="venta-form">
+        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W6RKXJZQ736GY" method="POST">
+          <label for="name">Nombre: </label>
+          <input type="text" placeholder="Tu nombre" name="name" id="name">
+          <label for="email">Email: </label>
+          <input type="email" placeholder="Tu em@il" name="email" id="email">
+          <label for="phone">Telefono: </label>
+          <input type="number" placeholder="Telefono" name="phone" id="phone">
+          <button class="product_button" type="submit">Comprar</button>
+        </form>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+      <div class="footer_links">
+        <ul>
+          <li><a href="#">Terminos y Condiciones</a></li>
+        </ul>
+      </div>
+      <div class="contact-mail">
+        <ul><li><a href="#">Nekontakt@gmail.com</a></li></ul>
+      </div>
+    </footer>
+  </body>
+</html>

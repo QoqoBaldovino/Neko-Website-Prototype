@@ -1,0 +1,63 @@
+:root{
+  /*Colors*/
+  --green-main: #8ace6b;
+  --green-light:#b7e884;
+  --purple-main: #55398d;
+
+  /*Spacing*/
+  --padding: 10px;
+  --center-padding: 15%;
+  --center-padding2: 10%;
+  --center-padding3: 5%;
+
+  /*Size*/
+  --font-normal: 1.5em;
+  --font-title2: 1.8em;
+  --font-title: 2em;
+
+  /*Shadow*/
+  --shadow: 0 0 1px purple;
+  --shadow2: 0 0 3px grey;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0.8)
+}
+
+.state{
+  text-align: center;
+  padding: var(--center-padding);
+}
+
+.state-img img{
+  width: 250px;
+}
+
+.state-description{
+  color: white;
+}
+
+.state-description h3{
+  font-size: 2em;
+  margin: 20px;
+}
+
+.state-description a{
+  font-size: 1.6em;
+  text-decoration: none;
+  color: white;
+  background-color: var(--green-main);
+  padding: 10px;
+  border-radius: 5px;
+}

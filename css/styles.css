@@ -35,6 +35,10 @@ html{
   
 }
 
+body{
+  
+}
+
 /* Header Starts*/
 
 header{
@@ -42,6 +46,7 @@ header{
   display: flex;
   padding: var(--padding);
   justify-content: space-between;
+  
 }
 
 header .nav_list{
@@ -117,15 +122,35 @@ header .nav_list .link:hover{
   
 }
 
-button{
+.product_button{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button{
   width: 100%;
-  padding: var(--padding);
-  margin-top: 10px;
+  padding: 8px;
   color: white;
   background-color: var(--green-main);
   border: none;
   font-size: 1.1em;
-  border-radius: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+
+button{
+  width: 100%;
+  padding: var(--padding);
+  color: white;
+  background-color: var(--green-main);
+  border: none;
+  font-size: 1.6em;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
 
 }
 
@@ -252,6 +277,7 @@ footer{
   background-color: black;
   color: white;
   justify-content: space-between;
+
   
 }
 
@@ -349,3 +375,76 @@ footer ul li a{
   border: none;
   box-shadow: var(--shadow);
 }
+
+
+/* Ventas */
+.venta_container{
+  padding: var(--center-padding);
+  display: grid;
+  grid-template-columns: 250px 350px;
+  grid-template-rows: repeat(3,90px);
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+
+.venta-description{
+  box-shadow: var(--shadow);
+  padding: 13px;
+  grid-row: 1 / span 3;
+  border-radius: 2px;
+}
+
+.venta-img{
+  text-align: center;
+}
+
+.venta-info{
+  margin-bottom: 20px;
+}
+
+.venta-description h3{
+  font-size: 1.8em;
+}
+
+.venta-description p{
+  font-size: 1.3em;
+  
+}
+
+.venta-price{
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: 600;
+  color: var(--green-main);
+  background-color: var(--purple-main);
+  width: 35%;
+  border-radius: 5px;
+}
+
+.venta-form{
+  box-shadow: var(--shadow);
+  grid-row: 1 / -1;
+  border-radius: 2px;
+  padding: 15px;
+}
+
+.venta-form label{
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.venta-form input{
+  width: 100%;
+  margin: 5px 0;
+  height: 40px;
+  padding: 15px 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: var(--shadow);
+}
+
+
+
